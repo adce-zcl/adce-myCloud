@@ -35,9 +35,9 @@ bool DB_POOL::db_get_info()
         std::string value(linebuf.begin() + pos + 1, linebuf.end());
         // port:3306
         // user:adce
-        // passwd:zcl001201
-        // hostw:124.222.232.238
-        // hostr:47.99.53.62
+        // passwd:*****
+        // hostw:*****
+        // hostr:****
         // size:128
         if ("port" == key)
         {
